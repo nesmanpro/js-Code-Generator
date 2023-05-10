@@ -9,7 +9,7 @@ const characters = {
     lowercase: "abcdefghijklmnopqrstuvwxyz",
     uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     numbers: "0123456789",
-    symbols: "!$%&?¿^*[]{}_:;,.-~|"
+    symbols: "~!@#$%^&*()_-+={[}]|:;',.?/"
 }
 
 const generatePassword = () => {
@@ -56,10 +56,10 @@ updateSlider();
 const copyPassword = () =>{
     navigator.clipboard.writeText(passwordInput.value);
     copyIcon.innerText = "check";
-    copyIcon.style.color = "#2EC4B6";
+    copyIcon.style.color = "##4f4f4f";
     setTimeout(() =>{
         copyIcon.innerText = "copy_all";
-        copyIcon.style.color = "#707070";
+        copyIcon.style.color = "#B3AEA8";
     }, 1500);
 }
 

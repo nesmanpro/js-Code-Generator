@@ -92,7 +92,7 @@ body{
 
 .pass-indicator#strong::before{
     width: 20%;
-    background: #085850;
+    background: #40a449;
 }
 
 .wrapper .pass-length{
